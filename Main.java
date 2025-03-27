@@ -19,6 +19,7 @@ public class Main {
         return "You were fined: $" + fine_amount + ".";
     }
 
+    // Arturo Vigil used hot wheels
     public static void give_citation(String Violation) {
         if (Violation == "Speeding") {
             System.out.println( "You were given a Speeding Citation.\n" + fine(6.0));
